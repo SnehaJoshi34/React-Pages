@@ -1,0 +1,44 @@
+/* src/screens/Dashboard.css */
+.dashboard-container {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+}
+
+.dashboard-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.dashboard-section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dashboard-section h2 {
+  margin: 0 0 10px;
+}
+
+.dashboard-section p {
+  font-size: 24px;
+  margin: 0;
+  color: #4a90e2;
+}

@@ -1,0 +1,127 @@
+/* src/components/Home.css */
+/* .home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  height: 100vh;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.home-header p {
+  font-size: 1.2em;
+  color: #6c757d;
+}
+
+.home-main {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.home-card {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #495057;
+}
+
+.home-card p {
+  font-size: 1em;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+} */
+/* src/screens/Dashboard.css */
+
+/* Home.css */
+.home-header h1 {
+  color: #094d06; /* Lilac color */
+  font-family: "cursive", sans-serif; /* Cursive font */
+  font-size: 50px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #3d79b0; /* Light gray background */
+}
+
+.home-header {
+  text-align: center;
+  text-emphasis-color: #cc5959;
+  margin-bottom: 20px;
+}
+
+.home-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-card {
+  background-color: #5bbd89; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(70, 55, 55, 0.1); /* Shadow effect */
+  padding: 20px;
+  margin: 0 10px; /* Adjust spacing between cards */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.home-card:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+  box-shadow: 0 0 30px rgba(117, 80, 80, 0.2); /* Increased shadow on hover */
+}
+
+.home-button {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue button color */
+  color: #ffffff; /* White text color */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #6f545a; /* Darker blue on hover */
+}
